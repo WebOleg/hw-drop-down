@@ -1,0 +1,112 @@
+body{
+  background-color: #282828;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.drop-down-section{
+  background-image: url('../img/bgc-1.png');
+  width: 674px;
+  height: 350px;
+  display: flex;
+  padding-top: 70px;
+  padding-right: 132px;
+  padding-left: 132px;
+}
+
+.drop-down-section .drop-down-section-form{
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.drop-down-section-form + .drop-down-section-form{
+  margin-left: 60px;
+}
+
+.drop-down-section .drop-down-section-form .form-group{
+  position: relative;
+}
+
+.drop-down-section .drop-down-section-form .form-group span,.drop-down-section .drop-down-section-form .form-group input{
+  color: #666666;
+  font-size: 12px; 
+}
+
+.drop-down-section .drop-down-section-form form .form-group input{
+  background-color: #141414;
+  width: 170px;
+}
+
+.drop-down-section .drop-down-section-form form .form-group .btn{
+  background-color: transparent;
+  position: absolute;
+  font-size: 12px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666666;
+}
+
+.drop-down-section .drop-down-section-form .dropdown-hover{
+  display: flex;
+  flex-direction: column;
+  display: none; 
+}
+
+.drop-down-section .drop-down-section-form:hover .dropdown-hover{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #181818;
+  width: 165px;
+  border: 5px solid #2b2b2b;
+} 
+
+.dropdown-hover .dropdown-item-a i{
+  font-size: 12px;
+  color: #666666;
+  margin-right: 8px;
+}
+
+.dropdown-hover .dropdown-item-a .number{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #b2b2b2;
+  margin-right: 5px;
+}
+
+.dropdown-hover .dropdown-item-a{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #737373;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dropdown-hover .border-bottoms{
+  width: 100%;
+  border-bottom: 2px solid #111111;
+}
+
+.dropdown-hover .dropdown-item-a:hover{
+  color: #eeec31;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, .0);
+}
+
+.form-control:hover{
+  border-color: #eeec31;  
+}
+
+
